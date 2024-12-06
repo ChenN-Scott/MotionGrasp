@@ -1,5 +1,5 @@
 # Long-Term Grasp Motion Tracking for Dynamic Grasping
-The official implementation of MotionGrasp | Paper
+The official implementation of MotionGrasp | [Paper](https://ieeexplore.ieee.org/document/10764717)
 
 ## Dependencies Installation
 
@@ -11,7 +11,7 @@ The official implementation of MotionGrasp | Paper
 
 ### Install graspnetapi
 
-## Testset preparation
+## Testset Generation
 
 ## Training
 
