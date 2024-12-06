@@ -1,13 +1,21 @@
 # Long-Term Grasp Motion Tracking for Dynamic Grasping
-The official implementation of MotionGrasp
+The official implementation of MotionGrasp | Paper
 
 ## Dependencies Installation
 
-### create python environment
+### Create Python Environment
 
-### install knn
+### Install Knn
 
-### install pointnet
+### Install Pointnet
+
+### Install graspnetapi
 
 ## Testset preparation
+
+## Training
+
+## Evaluation
+
+## Citation
 
