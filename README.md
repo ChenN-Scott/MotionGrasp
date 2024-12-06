@@ -9,7 +9,7 @@ The official implementation of MotionGrasp | [Paper](https://ieeexplore.ieee.org
 
 ### Install Pointnet
 
-### Install graspnetapi
+### Install GraspNetapi
 
 ## Testset Generation
 
