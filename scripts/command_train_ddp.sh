@@ -1,0 +1,13 @@
+CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torch.distributed.launch --nproc_per_node 4 --master_port 20700 train.py \
+--gpu_num 4 \
+--camera "realsense" \
+--log_dir "../logs/log_train" \
+--sequence_size 7 \
+--batch_size 2 \
+--model_name "pointnet" \
+--learning_rate 0.001 \
+--feature_dim 128 \
+--dataset_root "/data/GraspNet_1billion" \
+--checkpoint_path_1 "../logs/log_rs/checkpoint-rs.tar"  \
+--rot_type '6d' \
+--num_point 20000

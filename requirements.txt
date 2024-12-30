@@ -1,0 +1,14 @@
+einops
+grasp
+open3d==0.14.1
+Pillow==8.4.0
+trimesh==3.9.26
+graspnetAPI==1.2.11
+open3d_plus
+pytorch3d
+PyYAML
+scipy
+setuptools==57.5.0
+tqdm
+transforms3d
+tensorboard
