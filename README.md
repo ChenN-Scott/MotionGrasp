@@ -6,9 +6,9 @@ Nuo Chen&, Xiao-Ming Wu&, Guohao Xu, Jian-Jian Jiang, Zibo Chen, Wei-Shi Zheng*
 
 <center>
 <figure>
-<img src="./imgs/demo1.gif" style="zoom: 40%;">
-<img src="./imgs/demo2.gif" style="zoom: 40%;">
-<img src="./imgs/demo3.gif" style="zoom: 40%;">
+<img src="./imgs/demo1.gif" style="zoom: 30%;">
+<img src="./imgs/demo2.gif" style="zoom: 30%;">
+<img src="./imgs/demo3.gif" style="zoom: 30%;">
 </figure>
 </center>
 
