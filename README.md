@@ -5,7 +5,7 @@ The official implementation of MotionGrasp | [Paper](https://ieeexplore.ieee.org
 Nuo Chen&, Xiao-Ming Wu&, Guohao Xu, Jian-Jian Jiang, Zibo Chen, Wei-Shi Zheng*
 
 <center class="half">
-  <img src="./imgs/demo1.gif" width="200"/><img src="./imgs/demo2.gif" width="200"/><img src="./imgs/demo3.gif" width="200"/>
+    <img src="./imgs/demo1.gif" width="200"/><img src="./imgs/demo2.gif" width="200"/><img src="./imgs/demo3.gif" width="200"/>
 </center>
 
 ## Abstract
