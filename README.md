@@ -4,6 +4,14 @@ The official implementation of MotionGrasp | [Paper](https://ieeexplore.ieee.org
 
 Nuo Chen&, Xiao-Ming Wu&, Guohao Xu, Jian-Jian Jiang, Zibo Chen, Wei-Shi Zheng*
 
+<center>
+<figure>
+<img src="./imgs/demo1.gif" style="zoom: 50%;">
+<img src="./imgs/demo2.gif" style="zoom: 50%;">
+<img src="./imgs/demo3.gif" style="zoom: 50%;">
+</figure>
+</center>
+
 ## Abstract
 Dynamic grasping, which aims to grasp moving objects in unstructured environment, is crucial for robotics community. Previous methods propose to track the initial grasps or objects by matching between the latest two frames. However, this neighbour-frame matching strategy ignores the long-term historical trajectory in tracking, resulting in accumulated error. To address this, we present a novel dynamic grasping framework, delicately taking the long-term trajectory into account in grasp tracking. To model the long-term trajectory well, we introduce the concept of Grasp Motion, the changes of grasps between frames, endowing the model with the dynamic modeling ability. Benefiting from the Grasp Motion, we are able to conduct accurate motion association, which associates the grasp generated in current frame to the long-term grasp trajectory and mitigates accumulated error. Moreover, since the generated grasps in current frame may not precisely align with the ground-truth grasp for the trajectory, which results in deviation when we put it into the trajectory for future association, we further design a motion alignment module to compensate it. Our experiments show that the MotionGrasp achieves great grasping performance in dynamic grasping, obtaining 20% increase compared to the previous SOTA method in the large-scale GraspNet-1billion dataset. Our experiments also verify that Grasp Motion is a key to the success of long-term modeling. The real-world experiments further verify the effectiveness of our method.
 
