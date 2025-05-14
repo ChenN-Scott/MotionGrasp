@@ -114,8 +114,8 @@ def make_frame_dicts(type):
             scene_dict[camera_sn] = camera_dict
         
         frame_dicts[scene] = scene_dict
-    frame_path = os.path.join(cfgs.billion_root, 'collision_label_initial_frame', '{}_frame_dicts.json'.format(type))
-    make_dir(os.path.join(cfgs.billion_root, 'collision_label_initial_frame'))
+    frame_path = os.path.join(billion_root, 'collision_label_initial_frame', '{}_frame_dicts.json'.format(type))
+    make_dir(os.path.join(billion_root, 'collision_label_initial_frame'))
 
     with open(frame_path, 'w') as f:
         data = json.dumps(frame_dicts)
@@ -126,7 +126,7 @@ def make_frame_dicts(type):
 def make_object_name_list():
     object_name_list = []
     save_dict = {}
-    object_name_list_path = os.path.join(cfgs.billion_root, 'default.yaml')
+    object_name_list_path = os.path.join(billion_root, 'default.yaml')
 
     model_list = sorted(os.listdir(model_root))
     for id, model in enumerate(model_list):

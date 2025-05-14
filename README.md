@@ -129,6 +129,9 @@ Evaluation results on Realsense camera:
 |  In repo(V100) | 0.99 | 1.06  |  1.26   | 0.99 |  1.05   |  1.29   | 0.99 | 1.06  |  1.45   |
 
 
+## Checkpoint
+We have released a checkpoint trained on NVIDIA GeForce RTX 3090 at here. [[Google Drive](https://drive.google.com/file/d/1EjVGnWOMxLAfnebaC_b6Z-IkHTcIg5f7/view?usp=sharing)]
+
 ## Notes
 1. If you encounter cuda error when you install the pointnet2, [this](https://github.com/mkt1412/GraspGPT_public/issues/8
 ) may help you.
