@@ -155,7 +155,7 @@ def compute_rot_trans_loss(end_points, trans, rot, pose_label, training_mask, cu
 
     target_pose = pose_label[0]
     query_pose = pose_label[left:cur_frame+1]
-    target_grasp = end_points['batch_grasp_preds'].view(2,2,1024,17)[:,0,...]
+    target_grasp = end_points['batch_grasp_preds'].view(trans.shape[0],2,1024,17)[:,0,...]
     grasp_gt_list = []
 
     for i in range(len(query_pose)):

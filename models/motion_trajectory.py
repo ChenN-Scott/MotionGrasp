@@ -61,7 +61,7 @@ class MotionTrajectory(object):
     def _update_history(self, grasp_preds, cur_frame, length, grasp_features=None, crop_features=None):
         self.ref_history = self.update_array_all(self.ref_history, grasp_preds, length)
         self.cur_frame = self.update_array(self.cur_frame, torch.tensor(cur_frame).unsqueeze(0).unsqueeze(0)\
-                                           .repeat(2, self.num_trajectory, 1).contiguous().cuda())
+                                           .repeat(self.bs, self.num_trajectory, 1).contiguous().cuda())
         self.grasp_semantic_history = self.update_array(self.grasp_semantic_history, grasp_features)
         self.crop_semantic_history = self.update_array(self.crop_semantic_history, crop_features)
 

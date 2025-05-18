@@ -77,7 +77,7 @@ def setup_seed(seed):
 
 # ------------------------------------GLOBAL CONFIG------------------------------------- 
 if not os.path.exists(cfgs.dump_dir):
-    os.mkdir(cfgs.dump_dir)
+    os.makedirs(cfgs.dump_dir)
 
 def my_worker_init_fn(worker_id):
     np.random.seed(np.random.get_state()[1][0] + worker_id)
