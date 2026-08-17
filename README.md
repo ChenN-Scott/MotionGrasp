@@ -1,3 +1,5 @@
+
+
 # MotionGrasp: Long-Term Grasp Motion Tracking for Dynamic Grasping
 
 The official implementation of MotionGrasp | [Paper](https://ieeexplore.ieee.org/document/10764717)
@@ -193,8 +195,7 @@ We have released a checkpoint trained on NVIDIA GeForce RTX 3090 at here. [[Goog
 
 ## Notes
 
-1. If you encounter cuda error when you install the pointnet2, [this](https://github.com/mkt1412/GraspGPT_public/issues/8
-) may help you.
+1. If you encounter cuda error when you install the pointnet2, [this](https://github.com/mkt1412/GraspGPT_public/issues/8) may help you.
 2. If you have any questions, feel free to contact me by <chenn65@mail2.sysu.edu.cn>.
 
 ## Citation
